@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+body{
+    background-image:linear-gradient(90deg, rgba(177,94,159,0.5) 0%, rgba(172,157,157,0.5) 48%, rgba(99,184,201,0.5) 100%),url(./bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+}
+#shape{
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    margin-left: 700px;
+    margin-top: 200px;
+    border-radius: 10px;
+    position: relative;
+    opacity: 0.8;
+}
+img{
+    display: inline;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 175px;
+    margin-top: 80px;
+    opacity: 0.9;
+}
+h1{
+    position:absolute;
+    left: 120px;
+    top: 235px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Cantarell', sans-serif;
+    margin-left: 5px;
+    margin-bottom: 500px;
+    font-size: 220%;
+    position: absolute;
+}
+h2{
+    position:absolute;
+    left: 120px;
+    top: 310px;
+    font-family: 'Cinzel Decorative', cursive;
+    margin-left: 5px;
+    margin-bottom: 500px;
+    font-size: 150%;
+    position: absolute;
+}
+#twitter{
+    position: absolute;
+    left: 100px;
+    top: 420px;
+    font-size: 50px;
+    color: rgb(30, 127, 156);
+}
+#twitter:hover{
+    font-size: 60px;
+}
+#instagram{
+    position: absolute;
+    left: 230px;
+    top: 420px;
+    font-size: 50px;
+    color: rgb(211, 35, 158);
+}
+#instagram:hover{
+    font-size: 65px;
+}
+#facebook{
+    position: absolute;
+    left: 350px;
+    top: 420px;
+    font-size: 50px;
+    color: rgb(30, 30, 149);
+}
+#facebook:hover{
+    font-size: 60px;
+}
+hr.line1{
+    position: absolute;
+    bottom: 380px;
+    border:1px solid black;
+    width: 150px;
+
+}
+hr.line2{
+    position: absolute;
+    right: 0px;
+    bottom: 380px;
+    border:1px solid black;
+    width: 150px;
+
+}
+
+footer{
+    position: absolute;
+    top: 950px;
+    left: 860px;
+    font-family: 'Asap Condensed', sans-serif;
+    color: white;
+}
